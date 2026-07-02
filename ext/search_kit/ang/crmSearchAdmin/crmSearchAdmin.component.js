@@ -66,7 +66,7 @@
       },
       {
         key: 'settings',
-        title: ts('Configure Settings'),
+        title: ts('Settings'),
         icon: 'fa-gears',
       },
       {
