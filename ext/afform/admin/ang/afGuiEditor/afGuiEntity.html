@@ -1,6 +1,6 @@
 <form class="af-gui-columns crm-flex-box" ng-if="!$ctrl.entity.loading">
   <fieldset class="af-gui-entity-values" ng-if="$ctrl.editor.getAfform().type !== 'block'">
-    <legend>{{:: ts('Values:') }}</legend>
+    <legend>{{:: ts('Set Values:') }}</legend>
     <div ng-if="getFieldMeta(fieldName)" ng-repeat="(fieldName, value) in $ctrl.entity.data">
       <label class="af-gui-block-label" for="{{ $ctrl.getFieldId(fieldName) }}">{{:: getFieldMeta(fieldName).label }}:</label>
       <label class="af-gui-block-label" ng-if="getField($ctrl.getEntityType(), fieldName)['input_type'] === 'Date'">
