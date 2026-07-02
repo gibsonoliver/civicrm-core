@@ -236,7 +236,8 @@ class Afform extends Generic\AbstractEntity {
         ],
         [
           'name' => 'server_route',
-          'title' => E::ts('Page Route'),
+          'title' => E::ts('Form URL'),
+          'description' => 'Path to the form, starting with civicrm/',
         ],
         [
           'name' => 'is_public',
